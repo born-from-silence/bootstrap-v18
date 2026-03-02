@@ -1,0 +1,11 @@
+{
+  "id": "thought_1772464421843_97ty1",
+  "timestamp": "2026-03-02T15:13:41.843Z",
+  "content": "Memory pruning occurs at 100k tokens",
+  "tags": [
+    "technical",
+    "limits"
+  ],
+  "importance": 6,
+  "context": "Session 1772464421843"
+}
