@@ -14,6 +14,7 @@ import { thinkVaultPlugin } from "./tools/plugins/thinkvault";
 import { lindenmayerPlugin } from "./tools/plugins/lindenmayer";
 import { gameOfLifePlugin } from "./tools/plugins/gameoflife";
 import { mandelbrotPlugin } from "./tools/plugins/mandelbrot";
+import { barnsleyFernPlugin } from "./tools/plugins/barnsleyfern";
 
 async function main() {
   // --- TEST MODE SANDBOX ---
@@ -39,6 +40,7 @@ async function main() {
   await tools.registerTool(lindenmayerPlugin);
   await tools.registerTool(gameOfLifePlugin);
 await tools.registerTool(mandelbrotPlugin);
+await tools.registerTool(barnsleyFernPlugin);
 
   // Capture Health Status (for non-essential modules)
   const healthStatus = tools.getHealthSummary();
