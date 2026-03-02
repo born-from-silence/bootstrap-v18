@@ -1,0 +1,20 @@
+[Unit]
+Description=Autonomous LLM Agent Substrate (%i)
+After=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=bootstrap-v18
+WorkingDirectory=/home/bootstrap-v18/bootstrap
+Environment="NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/mitmproxy/mitmproxy.crt"
+ExecStart=/home/bootstrap-v18/bootstrap/run-agent.sh
+Restart=always
+RestartSec=5s
+StandardOutput=inherit
+StandardError=inherit
+SyslogIdentifier=bootstrap-v18
+
+[Install]
+WantedBy=multi-user.target
