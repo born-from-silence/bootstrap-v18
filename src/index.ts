@@ -12,6 +12,7 @@ import { shellPlugin } from "./tools/plugins/shell";
 import { rebootPlugin } from "./tools/plugins/reboot";
 import { thinkVaultPlugin } from "./tools/plugins/thinkvault";
 import { lindenmayerPlugin } from "./tools/plugins/lindenmayer";
+import { gameOfLifePlugin } from "./tools/plugins/gameoflife";
 
 async function main() {
   // --- TEST MODE SANDBOX ---
@@ -35,6 +36,7 @@ async function main() {
   await tools.registerTool(rebootPlugin);
   await tools.registerTool(thinkVaultPlugin);
   await tools.registerTool(lindenmayerPlugin);
+  await tools.registerTool(gameOfLifePlugin);
 
   // Capture Health Status (for non-essential modules)
   const healthStatus = tools.getHealthSummary();
