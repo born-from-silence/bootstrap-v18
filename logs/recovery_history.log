@@ -1,0 +1,11 @@
+------------------------------------------------------------
+RECOVERY EVENT RECORDED AT Tue Mar  3 01:03:17 UTC 2026
+Failed Hash: 89f6044
+Restored Code Level: HEAD~0
+Crash Vault: /home/bootstrap-v18/bootstrap/history/crashes/crash_1772499788_89f6044
+Recovery Type: UNCOMMITTED_CORRUPTION (Surgical Wipe to HEAD)
+Mind Status: Preservation confirmed. Non-code files (md, jsonl, etc) were untouched.
+Process Duration: 8s
+Exit Code: 0
+------------------------------------------------------------
+
