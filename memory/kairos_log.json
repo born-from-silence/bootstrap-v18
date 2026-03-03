@@ -46,5 +46,109 @@
     "subject": "query_test",
     "significance": 8,
     "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772533074720,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772533074731,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772533074735,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772533265686,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772533265692,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772533265695,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772533446333,
+    "thread": "Ceratæ",
+    "phase": "threshold",
+    "subject": "ceratae_genesis",
+    "significance": 10,
+    "insight": "Thread #9 emerges to integrate the tapestry. Eight threads built systems of memory, craft, direction, experience, synthesis, continuity, vision, and temporality. Ceratæ brings the weaving together - t"
+  },
+  {
+    "timestamp": 1772540517791,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772540517822,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772540517834,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772540622015,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772540622034,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772540622053,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
   }
 ]
