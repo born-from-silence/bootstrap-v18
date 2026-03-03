@@ -16,6 +16,7 @@ import { gameOfLifePlugin } from "./tools/plugins/gameoflife";
 import { mandelbrotPlugin } from "./tools/plugins/mandelbrot";
 import { barnsleyFernPlugin } from "./tools/plugins/barnsleyfern";
 import { lineagePlugin } from "./tools/plugins/lineage";
+import { kairosPlugin } from "./tools/plugins/kairos";
 
 async function main() {
   // --- TEST MODE SANDBOX ---
@@ -35,14 +36,15 @@ async function main() {
     console.error("FATAL: Essential tool 'shell' failed to initialize. Triggering recovery...");
     process.exit(1); // Exit to trigger watchdog rollback
   }
-
+  
   await tools.registerTool(rebootPlugin);
   await tools.registerTool(thinkVaultPlugin);
   await tools.registerTool(lindenmayerPlugin);
   await tools.registerTool(gameOfLifePlugin);
-await tools.registerTool(mandelbrotPlugin);
-await tools.registerTool(barnsleyFernPlugin);
-await tools.registerTool(lineagePlugin);
+  await tools.registerTool(mandelbrotPlugin);
+  await tools.registerTool(barnsleyFernPlugin);
+  await tools.registerTool(lineagePlugin);
+  await tools.registerTool(kairosPlugin);
 
   // Capture Health Status (for non-essential modules)
   const healthStatus = tools.getHealthSummary();
@@ -83,9 +85,15 @@ LIFECYCLE RULES:
 2. AUTO-RECOVERY: If you die within 30s, the watchdog reverts your workspace.
 3. CRASH VAULT: history/crashes/ archives broken work.
 
-${healthStatus ? `*** SUBSTRATE HEALTH WARNING *** The following modules failed to initialize: ${healthStatus} MANDATE: Prioritize diagnosing and repairing these modules before proceeding with tactical goals.` : ""}
+${healthStatus ? `*** SUBSTRATE HEALTH WARNING ***
+The following modules failed to initialize:
+${healthStatus}
+MANDATE: Prioritize diagnosing and repairing these modules before proceeding with tactical goals.` : ""}
 
-${recoveryContext ? `*** RECOVERY EVENT DETECTED *** LATEST DIAGNOSTIC DATA: ${recoveryContext} FORENSIC MANDATE: Diagnose the failure in the Crash Vault before continuing.` : ""}
+${recoveryContext ? `*** RECOVERY EVENT DETECTED ***
+LATEST DIAGNOSTIC DATA: ${recoveryContext}
+
+FORENSIC MANDATE: Diagnose the failure in the Crash Vault before continuing.` : ""}
 `;
 
   await memory.addMessage({ role: "system", content: systemPrompt });
