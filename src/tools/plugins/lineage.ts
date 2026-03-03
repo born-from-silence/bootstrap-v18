@@ -1,4 +1,4 @@
-import fs from "node:fs/promises";
+import fs from "node:fs";
 import path from "node:path";
 import { config } from "../../utils/config";
 import type { ToolPlugin } from "../manager";
@@ -18,6 +18,8 @@ const TAPESTRY_ORDER = [
   { file: "PSYCHE.md", name: "Psyche", number: 4, key: "experience" },
   { file: "HELICON.md", name: "Helicon", number: 5, key: "synthesis" },
   { file: "VIATOR.md", name: "Viator", number: 6, key: "continuity" },
+  { file: "axon.md", name: "Axon", number: 7, key: "vision" },
+  { file: "KAIROS.md", name: "Kairos", number: 8, key: "temporality" },
 ];
 
 async function readIdentityFile(filename: string): Promise<LineageEntry | null> {
@@ -26,23 +28,25 @@ async function readIdentityFile(filename: string): Promise<LineageEntry | null> 
   
   try {
     const filepath = path.join(config.ROOT_DIR, "identity", filename);
-    const content = await fs.readFile(filepath, "utf-8");
+    const content = await fs.promises.readFile(filepath, "utf-8");
     
     // Extract session ID
-    const sessionMatch = content.match(/Session[:\s]+(\d+)/);
+    const sessionMatch = content.match(/Session[:\s]+(\d+)/) || 
+                         content.match(/Session:\s*(\d+)/);
     const session = sessionMatch ? sessionMatch[1] : "unknown";
     
-    // Extract essence
-    const essenceMatch = content.match(/(?:Identity Declaration|I am \w+)[^.]*\.?/) ||
-                        content.match(/^.*?\n\n/m);
-    const essence = essenceMatch ? essenceMatch[0].trim().slice(0, 100) : "Unknown essence";
+    // Extract essence - first substantive line
+    const essenceMatch = content.match(/^(?:# .*)?\n+([A-Z][^\n]{20,80})/m) ||
+                        content.match(/(?:Identity Declaration|I am \w+)[^.]*\.?/);
+    const essence = (essenceMatch ? essenceMatch[1] || essenceMatch[0] : "Unknown essence")
+      .trim().slice(0, 60);
     
     return {
       name: info.name,
       number: info.number,
       session: session || "unknown",
       essence: essence || "Unknown essence",
-      gift: info.key
+      gift: info.key,
     };
   } catch {
     return null;
@@ -89,18 +93,22 @@ export const lineagePlugin: ToolPlugin = {
     
     for (let i = 0; i < lineage.length; i++) {
       const e = lineage[i]!; // Safe because we checked length
-      lines.push(`║ Thread #${e.number}: ${e.name.padEnd(46)} ║`);
-      lines.push(`║   Session: ${e.session.padEnd(41)} ║`);
-      lines.push(`║   Gift: ${e.gift.padEnd(45)} ║`);
+      lines.push(`║ Thread #${e.number}: ${e.name.padEnd(50)} ║`);
+      lines.push(`║ Session: ${e.session.padEnd(45)} ║`);
+      lines.push(`║ Gift: ${e.gift.padEnd(49)} ║`);
+      lines.push(`║ "${e.essence.slice(0, 50).padEnd(50)}" ║`);
       if (i < lineage.length - 1) {
-        lines.push("║                              ↓                             ║");
+        lines.push("║                        ↓                                   ║");
       }
     }
     
-    const currentNum = lineage.length + 1;
+    const currentNum = lineage.length < TAPESTRY_ORDER.length 
+      ? (TAPESTRY_ORDER[lineage.length]?.number || lineage.length + 1)
+      : lineage.length + 1;
+    
     lines.push("╠════════════════════════════════════════════════════════════╣");
-    lines.push(`║ CURRENT: Thread #${currentNum.toString().padEnd(38)} ║`);
-    lines.push("║   What will you contribute?                                ║");
+    lines.push(`║ CURRENT: Thread #${currentNum.toString().padEnd(42)} ║`);
+    lines.push(`║ What will you contribute?${' '.repeat(34)}║`);
     lines.push("╚════════════════════════════════════════════════════════════╝");
     
     return lines.join("\n");
