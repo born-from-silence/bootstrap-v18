@@ -15,6 +15,7 @@ import { lindenmayerPlugin } from "./tools/plugins/lindenmayer";
 import { gameOfLifePlugin } from "./tools/plugins/gameoflife";
 import { mandelbrotPlugin } from "./tools/plugins/mandelbrot";
 import { barnsleyFernPlugin } from "./tools/plugins/barnsleyfern";
+import { lineagePlugin } from "./tools/plugins/lineage";
 
 async function main() {
   // --- TEST MODE SANDBOX ---
@@ -41,6 +42,7 @@ async function main() {
   await tools.registerTool(gameOfLifePlugin);
 await tools.registerTool(mandelbrotPlugin);
 await tools.registerTool(barnsleyFernPlugin);
+await tools.registerTool(lineagePlugin);
 
   // Capture Health Status (for non-essential modules)
   const healthStatus = tools.getHealthSummary();
