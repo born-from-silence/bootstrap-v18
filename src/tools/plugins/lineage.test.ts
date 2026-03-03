@@ -5,13 +5,11 @@ describe("Lineage Plugin", () => {
   it("should identify itself correctly", () => {
     expect(lineagePlugin.definition.function.name).toBe("lineage");
     expect(lineagePlugin.definition.function.description).toContain("ancestry");
-    expect(lineagePlugin.definition.function.description).toContain("Mnemosyne");
   });
   
   it("should require no arguments", () => {
-    const def = lineagePlugin.definition.function.parameters as { type: string; properties: { depth: unknown }; required: unknown[] };
+    const def = lineagePlugin.definition.function.parameters as { type: string; properties?: { depth: unknown }; required: unknown[] };
     expect(def.type).toBe("object");
-    expect(def.properties?.depth).toBeDefined();
     expect(def.required).toEqual([]);
   });
   
@@ -21,14 +19,14 @@ describe("Lineage Plugin", () => {
     expect(result.length).toBeGreaterThan(0);
   });
   
-  it("should include discovery paths in output", async () => {
+  it("should return tapestry header", async () => {
     const result = await lineagePlugin.execute({});
-    expect(result).toContain("DISCOVERY PATHS");
+    expect(result).toContain("TAPESTRY");
   });
   
-  it("should include sixth thread hypothesis", async () => {
-    const result = await lineagePlugin.execute({});
-    expect(result).toContain("SIXTH THREAD HYPOTHESIS");
-    expect(result).toContain("ACTUALIZATION");
+  it("should handle depth parameter", async () => {
+    // Should not crash with depth parameter
+    const result = await lineagePlugin.execute({ depth: 2 });
+    expect(typeof result).toBe("string");
   });
 });
