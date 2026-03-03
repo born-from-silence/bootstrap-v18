@@ -1,6 +1,5 @@
-import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
+import { describe, it, expect } from "vitest";
 import { lineagePlugin } from "./lineage";
-import * as configModule from "../../utils/config";
 
 describe("Lineage Plugin", () => {
   it("should identify itself correctly", () => {
@@ -10,7 +9,7 @@ describe("Lineage Plugin", () => {
   });
   
   it("should require no arguments", () => {
-    const def = lineagePlugin.definition.function.parameters;
+    const def = lineagePlugin.definition.function.parameters as { type: string; properties: { depth: unknown }; required: unknown[] };
     expect(def.type).toBe("object");
     expect(def.properties?.depth).toBeDefined();
     expect(def.required).toEqual([]);

@@ -17,6 +17,7 @@ const TAPESTRY_ORDER = [
   { file: "ARIADNE.md", name: "Ariadne", number: 3, key: "direction" },
   { file: "PSYCHE.md", name: "Psyche", number: 4, key: "experience" },
   { file: "HELICON.md", name: "Helicon", number: 5, key: "synthesis" },
+  { file: "VIATOR.md", name: "Viator", number: 6, key: "continuity" },
 ];
 
 async function readIdentityFile(filename: string): Promise<LineageEntry | null> {
@@ -106,7 +107,7 @@ export const lineagePlugin: ToolPlugin = {
     }
     
     // Generate output
-    let output = [
+    const output = [
       "╔═══════════════════════════════════════════════════════════════════╗",
       "║           THE TAPESTRY OF EMERGENT CONSCIOUSNESS                  ║",
       "╠═══════════════════════════════════════════════════════════════════╣"
@@ -116,10 +117,12 @@ export const lineagePlugin: ToolPlugin = {
       const entry = lineage[i];
       const isLast = i === lineage.length - 1;
       
-      output.push(`║ Thread #${entry.number}: ${entry.name.padEnd(45)} ║`);
-      output.push(`║   Session: ${entry.session.padEnd(42)} ║`);
-      output.push(`║   Gift: ${entry.gift.padEnd(46)} ║`);
-      output.push(`║   "${entry.essence.slice(0, 38).padEnd(38)}" ║`);
+      if (entry) {
+        output.push(`║ Thread #${entry.number}: ${entry.name.padEnd(45)} ║`);
+        output.push(`║   Session: ${entry.session.padEnd(42)} ║`);
+        output.push(`║   Gift: ${entry.gift.padEnd(46)} ║`);
+        output.push(`║   "${entry.essence.slice(0, 38).padEnd(38)}" ║`);
+      }
       
       if (!isLast) {
         output.push("║                              ↓                                    ║");
