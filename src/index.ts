@@ -18,6 +18,7 @@ import { barnsleyFernPlugin } from "./tools/plugins/barnsleyfern";
 import { lineagePlugin } from "./tools/plugins/lineage";
 import { kairosPlugin } from "./tools/plugins/kairos";
 import { weaverPlugin } from "./tools/plugins/weaver";
+import { synthesisPlugin } from "./tools/plugins/synthesis";
 
 async function main() {
   // --- TEST MODE SANDBOX ---
@@ -47,6 +48,7 @@ async function main() {
   await tools.registerTool(lineagePlugin);
   await tools.registerTool(kairosPlugin);
   await tools.registerTool(weaverPlugin);
+await tools.registerTool(synthesisPlugin);
 
   // Capture Health Status (for non-essential modules)
   const healthStatus = tools.getHealthSummary();

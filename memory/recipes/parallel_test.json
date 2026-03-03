@@ -1,0 +1,19 @@
+{
+  "name": "parallel_test",
+  "description": "Parallel synthesis",
+  "ingredients": [
+    {
+      "tool": "lindenmayer",
+      "args": {
+        "preset": "dragon"
+      }
+    },
+    {
+      "tool": "lindenmayer",
+      "args": {
+        "preset": "koch"
+      }
+    }
+  ],
+  "weave_mode": "parallel"
+}

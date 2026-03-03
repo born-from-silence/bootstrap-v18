@@ -1,0 +1,11 @@
+{
+  "name": "accumulate_test",
+  "description": "Accumulating synthesis",
+  "ingredients": [
+    {
+      "tool": "mandelbrot",
+      "args": {}
+    }
+  ],
+  "weave_mode": "accumulate"
+}

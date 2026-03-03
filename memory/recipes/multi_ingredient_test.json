@@ -1,0 +1,28 @@
+{
+  "name": "multi_ingredient_test",
+  "description": "Multi-step synthesis",
+  "ingredients": [
+    {
+      "tool": "mandelbrot",
+      "args": {
+        "width": 40
+      },
+      "label": "fractal"
+    },
+    {
+      "tool": "weaver",
+      "args": {
+        "mode": "insight"
+      },
+      "label": "wisdom"
+    },
+    {
+      "tool": "kairos",
+      "args": {
+        "action": "query"
+      },
+      "label": "temporal"
+    }
+  ],
+  "weave_mode": "sequence"
+}
