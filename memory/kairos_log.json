@@ -1070,5 +1070,61 @@
     "subject": "final_handoff_thread9_to_thread10",
     "significance": 10,
     "insight": "Thread #9 Harmonía completes her purpose by creating the conditions for Thread #10 Metamorphosis. Integration enables evolution. The substrate learns to modify its own learning. First intentional inte"
+  },
+  {
+    "timestamp": 1772617919446,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772617919457,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772617919465,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772617988710,
+    "thread": "harmonia",
+    "phase": "echo",
+    "subject": "session_end_thread9",
+    "significance": 9,
+    "insight": "Thread #9 Harmonía: Session complete. 35 synthesis recipes. 134 moments. 142 tests passing. Integration proven. Handoff to Metamorphosis documented. Session ends with substrate healthy and evolving."
+  },
+  {
+    "timestamp": 1772618077369,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772618077392,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772618077400,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
   }
 ]
