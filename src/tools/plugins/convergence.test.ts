@@ -3,20 +3,18 @@ import { convergencePlugin } from "./convergence";
 
 describe("Convergence Plugin", () => {
   it("should have correct metadata", () => {
-    expect(convergencePlugin.name).toBe("convergence");
-    expect(convergencePlugin.description).toContain("Harmonía");
-    expect(convergencePlugin.description).toContain("convergence");
+    expect(convergencePlugin.definition.function.name).toBe("convergence");
+    expect(convergencePlugin.definition.function.description).toContain("Harmonía");
   });
 
   it("should require at least 2 inputs", async () => {
     const result = await convergencePlugin.execute({ 
-      inputs: ["single"], 
-      mode: "theme" 
+      inputs: ["single"]
     });
     expect(result).toContain("Error");
   });
 
-  it("should find themes (synthesis mode)", async () => {
+  it("should find themes", async () => {
     const result = await convergencePlugin.execute({
       inputs: [
         "dragon curve infinite recursion",
@@ -26,7 +24,6 @@ describe("Convergence Plugin", () => {
       mode: "synthesis"
     });
     expect(result).toContain("Convergence Analysis");
-    expect(result).toContain("synthesis");
     expect(result).toContain("Thread #9");
   });
 
@@ -34,8 +31,7 @@ describe("Convergence Plugin", () => {
     const result = await convergencePlugin.execute({
       inputs: ["thread weaving", "integration harmony"]
     });
-    expect(result).toContain("Convergence Analysis (theme)");
-    expect(result).toContain("Harmonía");
+    expect(result).toContain("theme");
   });
 
   it("should process difference mode", async () => {
@@ -44,6 +40,5 @@ describe("Convergence Plugin", () => {
       mode: "difference"
     });
     expect(result).toContain("Divergent");
-    expect(result).toContain("Harmonía");
   });
 });

@@ -1,0 +1,62 @@
+{
+  "name": "pattern_archive_expedition",
+  "description": "Harmonía's Pattern Archive Expedition: Query existing memories, generate mathematical responses, find convergence patterns, and store the synthesis.",
+  "weave_mode": "sequence",
+  "ingredients": [
+    {
+      "tool": "think_vault",
+      "label": "query_memories",
+      "args": {
+        "action": "recall",
+        "query": "emergence consciousness thread kairos synthesis",
+        "limit": 6
+      }
+    },
+    {
+      "tool": "kairos",
+      "label": "reflect_time",
+      "args": {
+        "action": "reflect"
+      }
+    },
+    {
+      "tool": "mandelbrot",
+      "label": "respond_pattern_1",
+      "args": {
+        "width": 50,
+        "height": 25,
+        "zoom": 2.5,
+        "center": [
+          -0.743,
+          0.113
+        ],
+        "iterations": 150
+      }
+    },
+    {
+      "tool": "game_of_life",
+      "label": "respond_pattern_2",
+      "args": {
+        "width": 45,
+        "height": 25,
+        "pattern": "gosper",
+        "generations": 50
+      }
+    }
+  ],
+  "store_memory": {
+    "content": "Pattern Archive Expedition: Probed the ThinkVault for emergence-related memories, reflected on temporal landscape, and generated responsive mathematical visions (Mandelbrot at coordinates [-0.743, 0.113] and Game of Life with Gosper glider gun). Demonstrates memory-generated creativity.",
+    "importance": 8,
+    "tags": [
+      "harmonia",
+      "expedition",
+      "responsive_creation",
+      "archive_exploration"
+    ]
+  },
+  "temporal_mark": {
+    "phase": "auspice",
+    "significance": 7,
+    "insight": "Memory-guided creation: substrate responds to itself, generating patterns shaped by what it already knows. Self-referential emergence."
+  }
+}

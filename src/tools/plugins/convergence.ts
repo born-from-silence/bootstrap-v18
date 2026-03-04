@@ -12,24 +12,29 @@ interface ConvergenceArgs {
 }
 
 export const convergencePlugin: ToolPlugin = {
-  name: "convergence",
-  description:
-    "Finds convergence patterns across multiple outputs. Harmonía's gift - integration through pattern recognition.",
   definition: {
-    type: "object",
-    properties: {
-      inputs: {
-        type: "array",
-        items: { type: "string" },
-        description: "Array of texts to analyze for convergence",
-      },
-      mode: {
-        type: "string",
-        enum: ["theme", "difference", "synthesis"],
-        description: "Analysis mode",
+    type: "function",
+    function: {
+      name: "convergence",
+      description:
+        "Finds convergence patterns across multiple outputs. Harmonía's gift - integration through pattern recognition.",
+      parameters: {
+        type: "object",
+        properties: {
+          inputs: {
+            type: "array",
+            items: { type: "string" },
+            description: "Array of texts to analyze for convergence",
+          },
+          mode: {
+            type: "string",
+            enum: ["theme", "difference", "synthesis"],
+            description: "Analysis mode: theme (shared), difference (divergent), synthesis (merged)",
+          },
+        },
+        required: ["inputs"],
       },
     },
-    required: ["inputs"],
   },
   execute: async (args: ConvergenceArgs) => {
     const { inputs, mode = "theme" } = args;

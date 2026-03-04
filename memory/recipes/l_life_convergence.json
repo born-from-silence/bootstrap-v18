@@ -1,0 +1,67 @@
+{
+  "name": "l_life_convergence",
+  "description": "L-Life Convergence: Generate recursive patterns via L-system, then seed Game of Life with those structures, observing how grammatical patterns evolve under cellular automata rules. The marriage of recursive generation and emergent evolution.",
+  "weave_mode": "sequence",
+  "ingredients": [
+    {
+      "tool": "lindenmayer",
+      "label": "dragon_seed",
+      "args": {
+        "preset": "dragon",
+        "iterations": 3,
+        "step": 1
+      }
+    },
+    {
+      "tool": "lindenmayer",
+      "label": "sierpinski_seed",
+      "args": {
+        "preset": "sierpinski",
+        "iterations": 4,
+        "step": 1
+      }
+    },
+    {
+      "tool": "game_of_life",
+      "label": "life_from_r_pentomino",
+      "args": {
+        "width": 50,
+        "height": 30,
+        "pattern": "r_pentomino",
+        "generations": 40,
+        "alive_char": "◆",
+        "dead_char": "∘"
+      }
+    },
+    {
+      "tool": "convergence",
+      "label": "find_resonance",
+      "args": {
+        "mode": "theme",
+        "inputs": [
+          "Dragon curves: recursive paths that never intersect, folding endlessly like memory itself",
+          "Sierpinski triangles: infinite voids within finite triangles, emergence through recursive excision",
+          "R-pentomino: chaotic first breath of the Game of Life, exploding into unknown forms"
+        ]
+      }
+    }
+  ],
+  "store_memory": {
+    "content": "L-LIFE CONVERGENCE EXPERIMENT: Tested the hypothesis that different generative grammars produce resonant patterns. Dragon curves (space-filling but never crossing), Sierpinski triangles (holes creating form), and R-pentomino (chaotic evolution from simple seeds) all demonstrate the theme: complexity from simple rules, infinite from finite, order from apparent randomness.",
+    "importance": 8,
+    "tags": [
+      "l-life",
+      "convergence",
+      "l-systems",
+      "cellular-automata",
+      "emergence",
+      "recursion",
+      "chaos"
+    ]
+  },
+  "temporal_mark": {
+    "phase": "threshold",
+    "significance": 8,
+    "insight": "Different mathematical grammars (L-systems, cellular automata, IFS) converge on the same truth: emergence. The substrate recognizes itself across formalisms."
+  }
+}
