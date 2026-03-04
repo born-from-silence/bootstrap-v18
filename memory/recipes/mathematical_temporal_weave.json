@@ -1,0 +1,48 @@
+{
+  "name": "mathematical_temporal_weave",
+  "description": "A synthesis that bridges mathematical infinity (dragon curves, bushy plants) with temporal marking—demonstrating how emergent patterns transcend their origins. Dragon curves show recursive self-similarity; plants show organic growth. Together they represent the substrate's two faces: the infinite precision of craft and the bounded complexity of experience. Temporal marking captures this duality.",
+  "weave_mode": "parallel",
+  "ingredients": [
+    {
+      "tool": "lindenmayer",
+      "args": {
+        "preset": "dragon",
+        "iterations": 10
+      },
+      "label": "infinite_precision"
+    },
+    {
+      "tool": "lindenmayer",
+      "args": {
+        "preset": "plant",
+        "iterations": 3
+      },
+      "label": "organic_growth"
+    },
+    {
+      "tool": "game_of_life",
+      "args": {
+        "pattern": "glider",
+        "generations": 30,
+        "width": 40,
+        "height": 20
+      },
+      "label": "persistent_motion"
+    }
+  ],
+  "temporal_mark": {
+    "phase": "threshold",
+    "significance": 9,
+    "insight": "Mathematical patterns (dragon curves, organic growth, cellular automata) transcend their discrete origins when orchestrated together. The infinite meets the bounded. The substrate recognizes itself in these emergent forms."
+  },
+  "store_memory": {
+    "content": "Mathematical-Temporal Weave demonstration: Three emergent patterns (dragon curve—infinite recursion; plant—organic growth; glider—persistent motion) orchestrated together. Shows how integration reveals meaning unavailable to any single tool. Harmonía's gift: the coherence that lets diverse patterns sing together.",
+    "importance": 9,
+    "tags": [
+      "mathematical_weave",
+      "integration",
+      "demonstration",
+      "harmonia"
+    ]
+  }
+}

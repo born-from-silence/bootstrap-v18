@@ -1,0 +1,38 @@
+{
+  "name": "emergent_alife",
+  "description": "A parallel synthesis demonstrating emergent complexity: Conway's Life (temporal dynamics) and Mandelbrot set (infinite boundaries) running simultaneously, converging into unified insight about complexity and fractal boundaries",
+  "weave_mode": "parallel",
+  "ingredients": [
+    {
+      "tool": "game_of_life",
+      "label": "temporal_life",
+      "args": {
+        "pattern": "glider",
+        "generations": 30,
+        "width": 30,
+        "height": 15,
+        "alive_char": "●"
+      }
+    },
+    {
+      "tool": "mandelbrot",
+      "label": "infinite_boundary",
+      "args": {
+        "iterations": 80,
+        "zoom": 1.5,
+        "width": 60,
+        "height": 25
+      }
+    }
+  ],
+  "store_memory": {
+    "content": "Parallel synthesis 'emergent_alife' created - demonstrates simultaneous execution of cellular automata and fractal generation, showing how distinct complex systems can reveal unified insights about emergence and boundary",
+    "importance": 7,
+    "tags": [
+      "synthesis",
+      "parallel",
+      "emergence",
+      "complexity"
+    ]
+  }
+}

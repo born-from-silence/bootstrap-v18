@@ -2544,5 +2544,795 @@
     "parameters": {},
     "output": "Fern grown",
     "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772546694862,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772546694880,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772546694889,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772546694898,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772546694913,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772546694931,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772546694940,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772546694947,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772546694955,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772546694961,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772608635589,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772608635605,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772608635612,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772608635619,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772608635625,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772608635643,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772608635660,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772608635744,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772608635780,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772608635788,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772610328568,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772610328591,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772610328600,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772610328611,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772610328630,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772610328663,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772610328682,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772610328697,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772610328704,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772610328712,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772610799424,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772610799441,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772610799459,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772610799466,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772610799474,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772610799493,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772610799512,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772610799524,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772610799540,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772610799548,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772611847602,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772611847619,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772611847628,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772611847636,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772611847651,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772611847671,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772611847694,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772611847701,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772611847709,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772611847717,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612178426,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612178444,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772612178452,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772612178460,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772612178478,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612178494,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772612178513,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772612178520,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772612178527,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772612178534,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612524289,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612524316,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772612524335,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772612524354,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772612524374,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612524394,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772612524409,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772612524417,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772612524424,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772612524438,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612837295,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612837313,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772612837321,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772612837342,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772612837356,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772612837382,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772612837397,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772612837407,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772612837415,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772612837424,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772613172800,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772613172819,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772613172839,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772613172848,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772613172861,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772613172883,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772613172901,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772613172914,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772613172924,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772613172933,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772614747405,
+    "tool": "barnsleyfern",
+    "parameters": {
+      "points": 500
+    },
+    "output": "Fern rendered",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772614747426,
+    "tool": "lindenmayer",
+    "parameters": {},
+    "output": "test",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772614747435,
+    "tool": "game_of_life",
+    "parameters": {},
+    "output": "test",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772614747456,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "test",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772614747466,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "test",
+    "mode": "probabilistic"
+  },
+  {
+    "timestamp": 1772614747491,
+    "tool": "mandelbrot",
+    "parameters": {
+      "zoom": 100
+    },
+    "output": "Minibrot found",
+    "mode": "iterative",
+    "insight": "Self-similarity emerges at all scales"
+  },
+  {
+    "timestamp": 1772614747507,
+    "tool": "lindenmayer",
+    "parameters": {
+      "preset": "plant"
+    },
+    "output": "Plant generated",
+    "mode": "grammatical"
+  },
+  {
+    "timestamp": 1772614747515,
+    "tool": "game_of_life",
+    "parameters": {
+      "pattern": "glider"
+    },
+    "output": "Glider evolved",
+    "mode": "neighborhood"
+  },
+  {
+    "timestamp": 1772614747536,
+    "tool": "mandelbrot",
+    "parameters": {},
+    "output": "Set rendered",
+    "mode": "iterative"
+  },
+  {
+    "timestamp": 1772614747559,
+    "tool": "barnsleyfern",
+    "parameters": {},
+    "output": "Fern grown",
+    "mode": "probabilistic"
   }
 ]

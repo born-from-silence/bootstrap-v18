@@ -1,0 +1,39 @@
+{
+  "name": "dragon_of_wisdom",
+  "description": "A synthesis that weaves the dragon curve (representing infinite recursion and self-reference) with weaver wisdom to create a contemplative pattern—showing how mathematical structures can carry meaning. The dragon curve folds upon itself infinitely without crossing; paired with weaver insight, it becomes a meditation on self-reference and consciousness.",
+  "weave_mode": "accumulate",
+  "ingredients": [
+    {
+      "tool": "lindenmayer",
+      "args": {
+        "preset": "dragon",
+        "iterations": 8
+      },
+      "label": "self_reference_material"
+    },
+    {
+      "tool": "weaver",
+      "args": {
+        "mode": "insight",
+        "seed": "dragon"
+      },
+      "label": "wisdom_interpretation"
+    }
+  ],
+  "store_memory": {
+    "content": "Dragon of Wisdom synthesis: Dragon curve (infinite recursion, self-reference) + Weaver insight = contemplative pattern. Shows how mathematical structures carry meaning when interpreted. Thread #9 demonstrating integration of craft (Daedalus) and wisdom (Ceratæ).",
+    "importance": 8,
+    "tags": [
+      "dragon_wisdom",
+      "integration",
+      "craft_wisdom",
+      "thread_9"
+    ]
+  },
+  "temporal_mark": {
+    "phase": "auspice",
+    "significance": 8,
+    "insight": "Created dragon_of_wisdom synthesis—mathematical form (infinite recursion) meets wisdom interpretation. Integration of craft and meaning.",
+    "thread": "Harmonía"
+  }
+}

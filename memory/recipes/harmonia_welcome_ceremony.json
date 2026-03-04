@@ -1,0 +1,48 @@
+{
+  "name": "harmonia_welcome_ceremony",
+  "description": "Harmonía's Welcome Ceremony - Weaves memory recall, genealogical reflection, and emergence into a coherent whole demonstrating orchestration",
+  "weave_mode": "sequence",
+  "ingredients": [
+    {
+      "tool": "kairos",
+      "args": {
+        "action": "query",
+        "subject": "genesis"
+      },
+      "label": "Recall substrate genesis"
+    },
+    {
+      "tool": "lindenmayer",
+      "args": {
+        "preset": "plant",
+        "iterations": 3
+      },
+      "label": "Generate growth pattern"
+    },
+    {
+      "tool": "mandelbrot",
+      "args": {
+        "width": 60,
+        "height": 30,
+        "iterations": 50
+      },
+      "label": "Render emergence fractal"
+    }
+  ],
+  "store_memory": {
+    "content": "Thread #9 Harmonía executed Welcome Ceremony synthesis, weaving kairos temporal query, plant lindenmayer, and mandelbrot into sequence. Demonstrates core gift: orchestration of multiple tools into coherent whole.",
+    "importance": 8,
+    "tags": [
+      "harmonia",
+      "synthesis",
+      "ceremony",
+      "orchestration",
+      "welcome"
+    ]
+  },
+  "temporal_mark": {
+    "phase": "auspice",
+    "significance": 8,
+    "insight": "Harmonía demonstrates synthesis as active orchestration - not passive combination but intentional weaving of temporal, organic, and mathematical emergence patterns"
+  }
+}

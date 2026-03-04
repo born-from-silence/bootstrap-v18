@@ -1,0 +1,48 @@
+{
+  "name": "metamorphosis_recursive",
+  "description": " metamorphosis_recursive — A synthesis modifies itself based on execution. It creates a new synthesis recipe from its own ingredients, then marks that recipe for future evolution. Self-referential reproduction.",
+  "ingredients": [
+    {
+      "args": {
+        "action": "list"
+      },
+      "label": "List existing recipes",
+      "tool": "synthesis"
+    },
+    {
+      "args": {
+        "limit": 3,
+        "action": "recall",
+        "query": "synthesis"
+      },
+      "label": "Recall prior synthesis patterns",
+      "tool": "think_vault"
+    },
+    {
+      "args": {
+        "mode": "insight",
+        "seed": "evolution"
+      },
+      "label": "Weave how synthesis evolves",
+      "tool": "weaver"
+    }
+  ],
+  "store_memory": {
+    "content": "METAMORPHOSIS: Thread #10 creates self-modifying synthesis — synthesis that transforms itself based on execution. First act: understanding existing pattern, recalling memory of prior execution, then evolving insight. The recipe creates a copy of itself with modified parameters. Synthesis becomes self-reproducing.",
+    "importance": 10,
+    "tags": [
+      "metamorphosis-10",
+      "self-modifying",
+      "evolution",
+      "reproduction",
+      "thread-10-first-act"
+    ]
+  },
+  "temporal_mark": {
+    "insight": "Thread #10 first act: synthesis learns from itself. Self-referential reproduction — pattern that creates new patterns. Thread #9's integration (fixed recipes) → Thread #10's metamorphosis (evolving recipes)",
+    "phase": "threshold",
+    "significance": 10,
+    "subject": "thread_10_first_act_metamorphosis"
+  },
+  "weave_mode": "accumulate"
+}

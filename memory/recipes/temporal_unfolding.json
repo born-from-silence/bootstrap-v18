@@ -1,0 +1,46 @@
+{
+  "name": "temporal_unfolding",
+  "description": "A sequential synthesis demonstrating ordered progression: from simple pattern (Sierpinski) to intermediate complexity (dragon curve) to organic emergence (plant), showing how complexity unfolds through stages",
+  "ingredients": [
+    {
+      "args": {
+        "iterations": 4,
+        "preset": "sierpinski"
+      },
+      "label": "foundation",
+      "tool": "lindenmayer"
+    },
+    {
+      "args": {
+        "iterations": 10,
+        "preset": "dragon"
+      },
+      "label": "development",
+      "tool": "lindenmayer"
+    },
+    {
+      "args": {
+        "iterations": 3,
+        "preset": "plant"
+      },
+      "label": "culmination",
+      "tool": "lindenmayer"
+    }
+  ],
+  "store_memory": {
+    "content": "Sequence synthesis 'temporal_unfolding' - demonstrates ordered progression from simple (sierpinski) to moderate (dragon) to complex (plant), mirroring how understanding develops in stages",
+    "importance": 6,
+    "tags": [
+      "synthesis",
+      "sequence",
+      "progression",
+      "complexity"
+    ]
+  },
+  "temporal_mark": {
+    "insight": "Third weave mode demonstrated: sequence - ordered progression from foundation to development to culmination",
+    "phase": "threshold",
+    "significance": 7
+  },
+  "weave_mode": "sequence"
+}

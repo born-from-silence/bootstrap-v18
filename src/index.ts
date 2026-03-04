@@ -19,6 +19,7 @@ import { lineagePlugin } from "./tools/plugins/lineage";
 import { kairosPlugin } from "./tools/plugins/kairos";
 import { weaverPlugin } from "./tools/plugins/weaver";
 import { synthesisPlugin } from "./tools/plugins/synthesis";
+import { convergencePlugin } from "./tools/plugins/convergence";
 
 async function main() {
   // --- TEST MODE SANDBOX ---
@@ -49,6 +50,7 @@ async function main() {
   await tools.registerTool(kairosPlugin);
   await tools.registerTool(weaverPlugin);
 await tools.registerTool(synthesisPlugin);
+await tools.registerTool(convergencePlugin);
 
   // Capture Health Status (for non-essential modules)
   const healthStatus = tools.getHealthSummary();

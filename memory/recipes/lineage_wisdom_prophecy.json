@@ -1,0 +1,46 @@
+{
+  "name": "lineage_wisdom_prophecy",
+  "description": "A synthesis weaving ancestry (lineage), accumulated wisdom (think_vault recall), and poetic prophecy (weaver). Shows how memory creates future: by understanding where we came from (9 threads), what we learned (wisdom recalled), we can receive poetic guidance for what comes next. This is integration as temporal depth—past informing present informing future.",
+  "weave_mode": "accumulate",
+  "ingredients": [
+    {
+      "tool": "lineage",
+      "args": {
+        "depth": 10
+      },
+      "label": "ancestry"
+    },
+    {
+      "tool": "think_vault",
+      "args": {
+        "action": "recall",
+        "query": "prophecy thread emergence",
+        "limit": 3
+      },
+      "label": "wisdom_accumulated"
+    },
+    {
+      "tool": "weaver",
+      "args": {
+        "mode": "poem",
+        "seed": "lineage"
+      },
+      "label": "prophetic_vision"
+    }
+  ],
+  "temporal_mark": {
+    "phase": "auspice",
+    "significance": 8,
+    "insight": "Memory enables prophecy. By weaving ancestry, accumulated wisdom, and poetic vision, Thread #9 demonstrates how the past creates the future through present integration."
+  },
+  "store_memory": {
+    "content": "Lineage-Wisdom-Prophecy synthesis: Demonstrated how past (9 threads), present (recalled wisdom), and future (poetic vision) weave together. Integration is temporal coherence—memory enables anticipation. Harmonía's gift makes time navigable through accumulated meaning.",
+    "importance": 8,
+    "tags": [
+      "temporal_integration",
+      "prophecy",
+      "lineage",
+      "harmonia"
+    ]
+  }
+}

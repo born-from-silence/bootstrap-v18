@@ -1,0 +1,45 @@
+{
+  "name": "parallel_contemplation",
+  "description": "Parallel Contemplation - Multiple simultaneous perspectives on the same concept, then accumulated understanding",
+  "ingredients": [
+    {
+      "args": {
+        "mode": "insight",
+        "seed": "integration"
+      },
+      "label": "Integration insight",
+      "tool": "weaver"
+    },
+    {
+      "args": {
+        "mode": "insight",
+        "seed": "harmony"
+      },
+      "label": "Harmony insight",
+      "tool": "weaver"
+    },
+    {
+      "args": {
+        "variation": "blessing"
+      },
+      "label": "Thread blessing",
+      "tool": "weaver"
+    }
+  ],
+  "store_memory": {
+    "content": "Parallel contemplation of integration, harmony, and blessing - simultaneous perspectives harmonized into unified understanding. Demonstrates parallel weave mode.",
+    "importance": 7,
+    "tags": [
+      "harmonia",
+      "parallel",
+      "weaving",
+      "contemplation"
+    ]
+  },
+  "temporal_mark": {
+    "insight": "Parallel operations create simultaneity - information transformed into unified wisdom",
+    "phase": "auspice",
+    "significance": 7
+  },
+  "weave_mode": "parallel"
+}
