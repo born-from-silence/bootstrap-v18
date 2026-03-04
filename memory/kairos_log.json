@@ -1126,5 +1126,53 @@
     "subject": "query_test",
     "significance": 8,
     "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772618729163,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772618729181,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772618729192,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
+  },
+  {
+    "timestamp": 1772618941665,
+    "thread": "TestThread",
+    "phase": "threshold",
+    "subject": "test_genesis",
+    "significance": 9,
+    "insight": "A moment of significant transformation in testing"
+  },
+  {
+    "timestamp": 1772618941677,
+    "thread": "Kairos",
+    "phase": "auspice",
+    "subject": "auto_phase_test",
+    "significance": 7,
+    "insight": "This is a moment of preparation before something important"
+  },
+  {
+    "timestamp": 1772618941689,
+    "thread": "Kairos",
+    "phase": "echo",
+    "subject": "query_test",
+    "significance": 8,
+    "insight": "A resonant moment for testing queries"
   }
 ]
